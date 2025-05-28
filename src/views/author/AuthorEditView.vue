@@ -5,7 +5,7 @@
                 :type="alert.type" 
                 :message="alert.message" />
             <v-card-title>
-                <h1>Edit Category</h1>
+                <h1>Edit Author</h1>
             </v-card-title>
             <v-card-text>
                 <v-form @submit.prevent="doEditAuthor" ref="form">
